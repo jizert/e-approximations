@@ -7,7 +7,7 @@ accuracy  = int(input("What level of accuracy would you like your approximation?
 e = math.e 
 
 def sum_e_accuracy(n):
-    total_sum = 1.0
+    sum(i/math.factorial(n) for i in range(n))
     
 
 margin_of_error = e - sum_e_accuracy(accuracy)
